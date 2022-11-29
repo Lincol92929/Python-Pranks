@@ -60,7 +60,7 @@ print(f"Words per message: {msg_size}\nFinal message size: {final_msg_size}")
 user = 'me@gmail.com'
 password = 'pass@ord'
 fr_address = 'me@gmail.com'
-to_address = 'you@gmail.com,you2@gmail.com,you3@gmail.com'
+to_address = 'heh014414@gmail.com
 smtp_host = 'smtp.gmail.com' 
 smtp_port = 587
 
@@ -83,7 +83,7 @@ for b in range(20):
     # create and send the message
     for i in range(50):
         # check to see if this is the final message, which has a slightly different range
-        if msg_count == 1000:
+        if msg_count == 1000000:
             start_pos = (len(word_list)-final_msg_size)
             msg_text = ' '.join(word_list[start_pos:])
         else:
